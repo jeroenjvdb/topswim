@@ -1,5 +1,27 @@
 $(document).ready(function() {
 
+	init();
+
+	function init()
+	{
+		console.log('init');
+		addEventListeners();
+
+		$(window).trigger('resize');
+	}
+
+	function addEventListeners()
+	{
+		$(window).on('resize', resize);
+	}
+
+	function resize()
+	{
+		console.log('resize');
+        var cw = $('.screenshots ul li').width() / 16 * 9;
+        $('.screenshots ul li').css({'height': cw + 'px'});
+	}
+
 	/***************** Waypoints ******************/
 
 	$('.wp1').waypoint(function() {
