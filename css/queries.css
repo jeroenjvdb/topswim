@@ -14,7 +14,7 @@
 @media screen and (max-width:680px){
 	.feature-content{width:60%;}
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:760px){
 	/*.use-btn{display:none;}*/
 	footer li{display:block;text-align:left;padding:20px 0;border-bottom:dashed 1px #c7cacc;margin-right:0!important;float:none;}
 	nav{margin-top:40px;}
