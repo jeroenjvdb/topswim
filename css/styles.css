@@ -958,7 +958,7 @@ footer ul {
 }
 footer li {
     float: left;
-    margin-right: 15%;
+    margin-right: 5%;
     list-style: none;
     text-transform: uppercase;
     font-weight: 400;
@@ -1017,7 +1017,7 @@ Nav Overlay
 }
 .overlay ul li a {
     display: block;
-    padding: 50px 0;
+    padding: 50px 5px;
     min-width: 190px;
     border: 2px solid #fff;
     border-radius: 3px;
