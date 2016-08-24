@@ -18,7 +18,7 @@ $(document).ready(function() {
 	function resize()
 	{
 		console.log('resize');
-        var cw = $('.screenshots ul li').width() / 16 * 9;
+        var cw = $('.screenshots ul li').width();
         $('.screenshots ul li').css({'height': cw + 'px'});
 	}
 
