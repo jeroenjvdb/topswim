@@ -1110,6 +1110,18 @@ Extras
     margin-bottom: 15px;
 }
 
+ .advantage {
+    padding-left: 45px;
+  }
+
+  .advantage:before {
+    content: '\f067';
+    font-family: FontAwesome;
+    color: white;
+    position: absolute;
+    left: 15px;
+  }
+
 .advantage i.fa {
     border-radius: 50%;
     color: #4b98a9;
